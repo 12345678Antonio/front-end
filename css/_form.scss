@@ -1,0 +1,48 @@
+@import "variable.scss";
+.form{
+    
+     position: relative;
+     top: 360px;
+     margin-left: 700px;
+     
+    input{
+        display: flex;
+        position: relative;
+        background-color: $color2;
+        margin-bottom: 10px;
+        border-radius: 15px;
+        width: 340px;
+        height: 40px;
+        right: 90px;
+        color: white;
+    }
+
+    .boton1{
+        display: flex;
+        position: relative;
+        background-color: #8A8787;
+        color: white;
+        border-radius: 15px;
+        width: 120px;
+        height: 40px;
+        right: 40px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .boton2{
+        display: flex;
+        position: relative;
+        background-color: $color1;
+        color: white;
+        border-radius: 15px;
+        width: 120px;
+        height: 40px;
+        left: 100px;
+        bottom: 40px;
+        align-items: center;
+        justify-content: center;
+        margin: 0px;
+
+    }
+}

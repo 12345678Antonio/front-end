@@ -1,0 +1,59 @@
+@import "variable.scss";
+
+.footer{
+    display: flex;
+    position: relative;
+    background-color: $color2;
+    top: 350px;
+    flex-direction: column; 
+    
+    div{
+        img{
+            display: flex;
+            position: absolute;
+            flex-direction: column;
+            justify-content: space-evenly;
+            left: 140px;
+            padding: 20px;
+            
+        }
+
+    }
+
+    h3{
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        color: #ffffff;
+        border: 100px;
+        font-family: $font;
+        margin-left: 260px;
+    }
+
+    p{
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        margin-left: 260px;
+        bottom:  30px;
+        font-family: $font;
+        color: #8A8787;
+    }
+
+    .imgf{
+        display: flex;
+        position: relative;
+        left: 1200px;
+        bottom: 130px;
+    }
+
+    div{
+        display: flex   ;
+        background-color: $color3;
+        color: #ffffff;
+        justify-content: center;
+        font-family: $font;
+    }
+
+
+}

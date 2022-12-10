@@ -1,0 +1,39 @@
+@import "variable.scss";
+
+.section2{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+  
+    .img{
+        display: flex;
+        position: absolute;
+        top: 30px;
+        left: 720px;
+    }
+    h2{
+        display: flex;
+        position: absolute;
+        top: 120px;
+        left: 590px;
+        width: 406px;
+        font-family: $font;
+        width: 407px;
+        height: 47px;
+        font-weight: 700;
+        font-size: 35px;
+        color: $color2;
+    }
+
+    div{
+        display: flex;
+        position: absolute;
+        top: 210px;
+        left: 635px;
+        font-family: $font;
+        font-weight: 400;
+        color: #666666;        
+    }
+
+  
+}

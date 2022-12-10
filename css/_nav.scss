@@ -1,0 +1,18 @@
+@import "variable.scss";
+
+
+
+
+.nav1{
+   display: flex;
+   justify-content: space-between;
+   background-color: $color1;
+   height: 60px;
+   align-items: center;
+    article{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    color: white;
+}

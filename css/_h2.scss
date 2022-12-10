@@ -1,0 +1,13 @@
+@import "variable.scss";
+
+.h2{
+    display: flex;
+    position: relative;
+    align-items: center;
+    top: 350px;
+    margin-left: 680px;
+    font-size: 36px;
+    font-family: $font;
+    color: $color2
+    
+}

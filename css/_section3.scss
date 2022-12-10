@@ -1,0 +1,23 @@
+@import "variable.scss";
+
+.section3{
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    top: 300px;
+    right: 10px;
+   
+    .p1{
+       display: flex; 
+      color: $color2 ;
+      justify-content: center;
+      font-family: $font;
+
+    }
+
+    .p2{
+        display: flex;
+        color: $color1;
+        justify-content: center;
+    }
+}   
